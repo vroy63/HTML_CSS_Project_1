@@ -1,0 +1,79 @@
+
+html{
+    background-color: blanchedalmond;
+}
+
+body{
+    max-width: 800px;
+    min-width:auto;
+    margin: auto;
+    background-color:white;
+    padding: 20px;
+    
+}
+
+body{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+  }
+
+h1, h2 {
+    font-family: "Young serif", sans-serif;
+    font-weight: 400;
+  }
+
+#omelette{
+  width: 100%;
+  height: auto;
+  min-width: 420px;
+}
+
+#prepHeading{
+    font-size: 18px;
+    color:rgb(135, 4, 135);
+    
+}
+
+#prep{
+    background: rgb(255, 218, 225);
+    border-top: none;
+    padding: 15px;
+}
+
+#ingredients, #instructions{
+    border-bottom: solid black 1px;
+}
+
+ul, ol, h2, .macro{
+    color: brown;
+}
+
+span, p{
+    color: black;
+}
+
+.nutritionFacts {
+    list-style: none;
+}
+
+.nutritionRow {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    border-bottom: solid black 1px;
+    margin: none;
+}
+
+#fat{
+    border-bottom: none;
+}
+
+
+
+@media  screen and (min-width: 475px) {
+    html{
+        font-size: 16px;
+    }
+    
+}
